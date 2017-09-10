@@ -1,0 +1,8 @@
+#!/usr/bin/ruby
+
+require_relative 'simulation'
+
+sim = Simulation.new
+
+sim.simulate()
+sim.output()
